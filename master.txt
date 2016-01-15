@@ -1,0 +1,9 @@
+This is the master repository.
+
+no code should be written on the master repository,
+rather, everything should be written on its own branch, (try `git branch` for a list of branches on the local machine, run `man git-branch` for more information about branching.)
+
+you can checkout other repositories by using the 'checkout' command.
+look into how you can create your own branches (HINT: maybe there is a way to do it using the `checkout` command)
+
+Try moving to the branch called 'hamish'
