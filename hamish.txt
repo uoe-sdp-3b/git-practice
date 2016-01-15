@@ -1,5 +1,32 @@
-merge this file into your branch.
+merge this branch into your branch.
 
 `get merge` should be a help.
 
 be aware that you need to be on the branch you want things to come to. think of it as summoning branches to you.
+
+first you will need to create your branch.
+We shall create a new branch off this branch, (HINT: look into how checkout works)
+
+When you have done this, you should add a random text file to the project.
+if you don't know what to add, running the following code on the line below will be fine:
+
+echo "sample text file" > sample.txt
+
+Now that you have a new file in your repository, you will need to add it to version control.
+
+Firstly, we should see what has changed. We can do this by checking the status of git, using `git status`.
+
+Secondly, you will need to look into staging your changes, ready for commiting into the version control system.
+This can be done using `git add sample.txt`. This tells git to stage the file, allowing you to build up several changes into a single commit.
+
+once we are here, if you want to verify that you are commiting the correct things, there are several things you can do.
+
+The first is by using `git status`. This should give you two lists of files. The first one is a list in green (the files that are ready to be commited),
+the second is the list of files that git has registered have changed from the version that was last commited.
+
+lastly, we need to commit the staged changes into the version control system.
+
+This can be done using the command `git commit`. You will be asked to put in a message describing the logical change you made for this set of staged changes.
+after you save and exit the editor, you should be able to check git using `git status`, and see that the files are no longer there.
+
+You can see that it has successfully been committed by looking at the output of `git log`. This command will show all the comments for every change that has been made.
