@@ -1,0 +1,5 @@
+merge this file into your branch.
+
+`get merge` should be a help.
+
+be aware that you need to be on the branch you want things to come to. think of it as summoning branches to you.
